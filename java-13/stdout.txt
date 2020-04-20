@@ -1,10 +1,11 @@
-> Task :compileJava UP-TO-DATE
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :compileJava
 > Task :processResources NO-SOURCE
-> Task :classes UP-TO-DATE
+> Task :classes
 > Task :compileTestJava UP-TO-DATE
 > Task :processTestResources NO-SOURCE
 > Task :testClasses UP-TO-DATE
-> Task :test UP-TO-DATE
+> Task :test
 
-BUILD SUCCESSFUL in 908ms
-3 actionable tasks: 3 up-to-date
+BUILD SUCCESSFUL in 17s
+3 actionable tasks: 2 executed, 1 up-to-date
