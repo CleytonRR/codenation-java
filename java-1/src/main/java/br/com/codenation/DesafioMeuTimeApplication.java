@@ -6,12 +6,21 @@ import java.util.List;
 
 import br.com.codenation.desafio.annotation.Desafio;
 import br.com.codenation.desafio.app.MeuTimeInterface;
+import br.com.codenation.exceptions.IdentificadorUtilizadoException;
+import br.com.codenation.time.Time;
+import br.com.codenation.time.repositorios.RepositorioTimes;
 
 public class DesafioMeuTimeApplication implements MeuTimeInterface {
 
 	@Desafio("incluirTime")
 	public void incluirTime(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
-		throw new UnsupportedOperationException();
+		Time time = new Time(id, nome, dataCriacao, corUniformePrincipal, corUniformeSecundario);
+		RepositorioTimes repositorioTimes = new RepositorioTimes();
+		try {
+			repositorioTimes.add(time);
+		} catch (IdentificadorUtilizadoException e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 	@Desafio("incluirJogador")
