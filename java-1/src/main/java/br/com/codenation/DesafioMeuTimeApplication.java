@@ -12,12 +12,13 @@ import br.com.codenation.time.repositorios.RepositorioTimes;
 
 public class DesafioMeuTimeApplication implements MeuTimeInterface {
 
+	private RepositorioTimes repositorioTimes = new RepositorioTimes();
+
 	@Desafio("incluirTime")
 	public void incluirTime(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
 		Time time = new Time(id, nome, dataCriacao, corUniformePrincipal, corUniformeSecundario);
-		RepositorioTimes repositorioTimes = new RepositorioTimes();
 		try {
-			repositorioTimes.add(time);
+			this.repositorioTimes.add(time);
 		} catch (IdentificadorUtilizadoException e) {
 			System.out.println(e.getMessage());
 		}
