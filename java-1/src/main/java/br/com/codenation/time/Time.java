@@ -1,7 +1,7 @@
 package br.com.codenation.time;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+
 
 public class Time {
     private Long id;
@@ -9,11 +9,12 @@ public class Time {
     private LocalDate dataCriacao;
     private String corUniformePrincipal;
     private String corUniformeSecundario;
+    private Long idCapitao;
 
     public Time(Long id, String nome, LocalDate dataCriacao, String corUniformePrincipal, String corUniformeSecundario) {
         this.id = id;
         this.nome = nome;
-        this.dataCriacao = LocalDate.now();
+        this.dataCriacao = dataCriacao;
         this.corUniformePrincipal = corUniformePrincipal;
         this.corUniformeSecundario = corUniformeSecundario;
     }
@@ -23,7 +24,6 @@ public class Time {
     }
 
     public void setId(Long id) {
-
         this.id = id;
     }
 
@@ -57,5 +57,13 @@ public class Time {
 
     public void setCorUniformeSecundario(String corUniformeSecundario) {
         this.corUniformeSecundario = corUniformeSecundario;
+    }
+
+    public Long getIdCapitao() {
+        return idCapitao;
+    }
+
+    public void setIdCapitao(Long idCapitao) {
+        this.idCapitao = idCapitao;
     }
 }
