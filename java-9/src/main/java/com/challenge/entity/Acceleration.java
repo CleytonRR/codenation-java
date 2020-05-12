@@ -4,6 +4,7 @@ import org.springframework.data.annotation.CreatedDate;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "acceleration")
@@ -25,6 +26,9 @@ public class Acceleration {
     @CreatedDate
     @Column(name = "created_at")
     private Date createdAt;
+
+    @OneToMany(mappedBy = "acceleration")
+    private List<Candidate> candidates;
 
     public Acceleration() {
     }
