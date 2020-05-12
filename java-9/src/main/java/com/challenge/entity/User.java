@@ -5,6 +5,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "user")
@@ -31,4 +32,13 @@ public class User {
     @Column(name = "created_at")
     @CreatedDate
     private Date createAt;
+
+    @OneToMany(mappedBy = "user")
+    private List<Candidate> candidates;
+
+    @OneToMany(mappedBy = "user")
+    private List<Submission> submissions;
+
+    public User() {
+    }
 }
