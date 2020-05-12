@@ -13,7 +13,9 @@ public class StatisticUtilTest {
 
 	@Test
 	public void testMode() {
-		assertEquals(3, StatisticUtil.mode(new int[] {1,2,3,3}));
+		assertEquals(3, StatisticUtil.mode(
+		        
+		        new int[] {1,2,3,3}));
 	}
 	
 	@Test

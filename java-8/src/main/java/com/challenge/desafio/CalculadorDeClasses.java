@@ -23,6 +23,7 @@ public class CalculadorDeClasses implements Calculavel {
         return somar(object).subtract(subtrair(object));
     }
 
+
     private BigDecimal calculator(Object object, Class ParamCalc) {
         BigDecimal total = BigDecimal.ZERO;
 
