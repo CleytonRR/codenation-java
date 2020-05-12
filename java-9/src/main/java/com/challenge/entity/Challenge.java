@@ -26,6 +26,9 @@ public class Challenge {
     @OneToMany(mappedBy = "challenge")
     private List<Acceleration> accelerations;
 
+    @OneToMany(mappedBy = "challenge")
+    private List<Submission> submissions;
+
     public Challenge() {
     }
 }
