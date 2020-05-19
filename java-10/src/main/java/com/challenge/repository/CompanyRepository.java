@@ -11,12 +11,12 @@ import java.util.List;
 @Repository
 public interface CompanyRepository extends CrudRepository<Company, Long> {
 
-    @Query(value = "select distinct company " +
-            "FROM company " +
+    @Query(value = "select distinct company.* " +
+            "from company " +
             "inner join candidate " +
             "on company.id = candidate.company_id " +
-            "where candidate.acceleration_id = :acceleration", nativeQuery = true)
-    List<Company> findbyAccelerationId(@Param("companyId") Long companyId);
+            "where candidate.acceleration_id = :accelerationId", nativeQuery = true)
+    List<Company> findbyAccelerationId(@Param("accelerationId") Long accelerationId);
 
     @Query(value = "select distinct company.* " +
             "from company " +

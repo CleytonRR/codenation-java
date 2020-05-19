@@ -24,11 +24,11 @@ public interface CandidateRepository extends CrudRepository<Candidate, Long> {
                                  @Param("companyId") Long companyId,
                                  @Param("accelerationId") Long accelerationId);
 
-    @Query("SELECT candidate.id.user FROM Candidate candidate WHERE candidate.id.company.id = :companyId")
+    @Query(value = "select * from candidate where company_id = :companyId", nativeQuery = true)
     List<Candidate> findByCompanyId(@Param("companyId") Long companyId);
 
-    @Query(value = "SELECT candidate.id.user FROM Candidate candidate WHERE " +
-            "candidate.id.company.id = :accelerationId", nativeQuery = true)
+    @Query(value = "select * from candidate where " +
+            "acceleration_id = :accelerationId", nativeQuery = true)
     List<Candidate> findByAccelerationId(@Param("accelerationId") Long accelerationId);
 
 }
