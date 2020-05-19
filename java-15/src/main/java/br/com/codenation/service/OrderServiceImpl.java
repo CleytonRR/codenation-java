@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import br.com.codenation.model.OrderItem;
 import br.com.codenation.model.Product;
@@ -13,9 +14,7 @@ import br.com.codenation.repository.ProductRepositoryImpl;
 public class OrderServiceImpl implements OrderService {
 
 	private ProductRepository productRepository = new ProductRepositoryImpl();
-	/**
-	 * Calculate the sum of all OrderItems
-	 */
+
 	@Override
 	public Double calculateOrderValue(List<OrderItem> items) {
 		return items.stream()
@@ -33,12 +32,13 @@ public class OrderServiceImpl implements OrderService {
 				.reduce(0D, (n1, n2) -> n1 + n2);
 	}
 
-	/**
-	 * Map from idProduct List to Product Set
-	 */
 	@Override
 	public Set<Product> findProductsById(List<Long> ids) {
-		return null;
+		return ids.stream()
+				.map(e -> this.productRepository.findById(e))
+				.filter(e -> e.isPresent())
+				.map(e -> e.get())
+				.collect(Collectors.toSet());
 	}
 
 	/**
