@@ -41,9 +41,6 @@ public class OrderServiceImpl implements OrderService {
 				.collect(Collectors.toSet());
 	}
 
-	/**
-	 * Calculate the sum of all Orders(List<OrderIten>)
-	 */
 	@Override
 	public Double calculateMultipleOrders(List<List<OrderItem>> orders) {
 		return orders.stream()
@@ -51,12 +48,13 @@ public class OrderServiceImpl implements OrderService {
 				.reduce(0D, (list1, list2) -> list1 + list2);
 	}
 
-	/**
-	 * Group products using isSale attribute as the map key
-	 */
 	@Override
 	public Map<Boolean, List<Product>> groupProductsBySale(List<Long> productIds) {
-		return null;
+		return productIds.stream()
+				.map(e -> this.productRepository.findById(e))
+				.filter(e -> e.isPresent())
+				.map(e -> e.get())
+				.collect(Collectors.groupingBy(e -> e.getIsSale()));
 	}
 
 }
