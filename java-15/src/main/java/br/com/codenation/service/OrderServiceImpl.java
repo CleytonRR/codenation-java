@@ -20,11 +20,12 @@ public class OrderServiceImpl implements OrderService {
 		return items.stream()
 				.mapToDouble(e -> {
 					Double sumTotaly = 0D;
+					int discountValue = 20;
 					Double discount = 0D;
 					Optional<Product> product = this.productRepository.findById(e.getProductId());
 					if (product.isPresent()) {
 						sumTotaly = product.get().getValue() * e.getQuantity();
-						discount = product.get().getIsSale() ? (sumTotaly * 20) / 100 : 0D;
+						discount = product.get().getIsSale() ? (sumTotaly * discountValue) / 100 : 0D;
 						sumTotaly -= discount;
 					}
 					return sumTotaly;
