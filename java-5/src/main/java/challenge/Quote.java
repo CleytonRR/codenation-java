@@ -1,29 +1,23 @@
 package challenge;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.persistence.*;
+
+@Entity(name = "scripts")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class Quote {
 
-	public Integer getId() {
-		return null;
-	}
-
-	public void setId(Integer id) {
-
-	}
-
-	public String getActor() {
-		return null;
-	}
-
-	public void setActor(String actor) {
-
-	}
-
-	public String getQuote() {
-		return null;
-	}
-
-	public void setQuote(String quote) {
-
-	}
-
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
+	private String actor;
+	@Column(name = "detail")
+	private String quote;
 }
