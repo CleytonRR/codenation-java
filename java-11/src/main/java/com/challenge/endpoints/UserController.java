@@ -3,14 +3,10 @@ package com.challenge.endpoints;
 import com.challenge.entity.User;
 import com.challenge.exceptions.ResourceNotFundException;
 import com.challenge.service.impl.UserService;
-import com.challenge.service.interfaces.UserServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
 import java.util.List;
@@ -20,7 +16,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserServiceInterface userService;
+    private UserService userService;
 
     @GetMapping("/{id}")
     public ResponseEntity<User> findById(@PathVariable("id") Long id) {
@@ -28,17 +24,15 @@ public class UserController {
         .orElseThrow(() -> new ResourceNotFundException("User")), HttpStatus.OK );
     }
 
-    @GetMapping()
-    public ResponseEntity<List<User>> findByParam(@PathVariable(required = false) String nome,
-                                                  @PathVariable(required = false) Long companyId) {
-        if (nome != null) {
-            return new ResponseEntity<>(this.userService.findByAccelerationName(nome), HttpStatus.OK);
+    @GetMapping
+    public List<User> findByAccelerationNameOrCompanyId(
+            @RequestParam(required = false) String accelerationName,
+            @RequestParam(required = false) Long companyId) {
+        if (accelerationName != null) {
+            return this.userService.findByAccelerationName(accelerationName);
+        } else if(companyId != null) {
+            return this.userService.findByCompanyId(companyId);
         }
-
-        if (companyId == null) {
-            return new ResponseEntity<>(this.userService.findByCompanyId(companyId), HttpStatus.OK);
-        }
-
-        return new ResponseEntity<>(Collections.emptyList(), HttpStatus.BAD_REQUEST);
+        return Collections.emptyList();
     }
 }
