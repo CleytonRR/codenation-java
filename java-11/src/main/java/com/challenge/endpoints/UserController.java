@@ -3,6 +3,7 @@ package com.challenge.endpoints;
 import com.challenge.entity.User;
 import com.challenge.exceptions.ResourceNotFundException;
 import com.challenge.service.impl.UserService;
+import com.challenge.service.interfaces.UserServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +20,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private UserServiceInterface userService;
 
     @GetMapping("/{id}")
     public ResponseEntity<User> findById(@PathVariable("id") Long id) {
