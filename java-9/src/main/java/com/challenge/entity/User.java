@@ -23,18 +23,15 @@ public class User {
     @Size(max = 100)
     private String fullname;
 
-    @Column(length = 100, nullable = false)
     @Email
     @Size(max = 100)
     @NotNull
     private String email;
 
-    @Column(length = 50, nullable = false)
     @NotNull
     @Size(max = 50)
     private String nickname;
 
-    @Column(length = 255, nullable = false)
     @NotNull
     @Size(max = 255)
     private String password;

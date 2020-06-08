@@ -1,14 +1,11 @@
 package challenge;
 
 public class CriptografiaCesariana implements Criptografia {
-
-
-
+    private  int key = 3;
     @Override
     public String criptografar(String texto) {
         String cifrado = "";
         int zCode = 122;
-        int key = 3;
         int initalLetter = 96;
         int codeLetterCypher;
 
@@ -19,11 +16,11 @@ public class CriptografiaCesariana implements Criptografia {
         for (int i = 0 ; i < texto.length(); i++) {
             char caracterAtual = texto.charAt(i);
             if (caracterAtual >= 'a' && caracterAtual <= 'z') {
-                if ((char)(caracterAtual + key) > 'z') {
-                    codeLetterCypher =  (int)(caracterAtual) + key - zCode + initalLetter ;
+                if ((char)(caracterAtual + this.key) > 'z') {
+                    codeLetterCypher =  (int)(caracterAtual) + this.key - zCode + initalLetter ;
                     cifrado += (char)(codeLetterCypher);
                 } else {
-                    cifrado += (char)(caracterAtual + key);
+                    cifrado += (char)(caracterAtual + this.key);
                 }
             } else {
                 cifrado += caracterAtual;
@@ -36,7 +33,6 @@ public class CriptografiaCesariana implements Criptografia {
     public String descriptografar(String texto) {
         int codeLetterCypher;
         int lastLetter = 123;
-        int key = 3;
         int aCode = 97;
 
         String decifrado = "";
@@ -48,11 +44,11 @@ public class CriptografiaCesariana implements Criptografia {
         for (int i = 0; i < texto.length(); i++) {
             char caracterAtual = texto.charAt(i);
             if (caracterAtual >= 'a' && caracterAtual <= 'z') {
-                if ((char)(caracterAtual - key) < 'a') {
-                    codeLetterCypher = lastLetter - (key - ((int)(caracterAtual) - aCode));
+                if ((char)(caracterAtual - this.key) < 'a') {
+                    codeLetterCypher = lastLetter - (this.key - ((int)(caracterAtual) - aCode));
                     decifrado += (char)(codeLetterCypher);
                 } else {
-                    decifrado += (char)(caracterAtual - key);
+                    decifrado += (char)(caracterAtual - this.key);
                 }
             } else {
                 decifrado += caracterAtual;

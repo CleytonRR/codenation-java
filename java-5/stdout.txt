@@ -1,0 +1,17 @@
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+2020-05-24 18:07:28.586  INFO 21095 --- [       Thread-8] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5e35775: startup date [Sun May 24 18:07:27 BRT 2020]; root of context hierarchy
+2020-05-24 18:07:28.588  INFO 21095 --- [       Thread-6] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e74afad: startup date [Sun May 24 18:07:16 BRT 2020]; root of context hierarchy
+2020-05-24 18:07:28.593  INFO 21095 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-05-24 18:07:28.606  INFO 21095 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-05-24 18:07:28.622  INFO 21095 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+BUILD SUCCESSFUL in 17s
+5 actionable tasks: 5 executed

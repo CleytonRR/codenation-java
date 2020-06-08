@@ -29,313 +29,313 @@
 [INFO]  T E S T S
 [INFO] -------------------------------------------------------
 [INFO] Running com.challenge.suite.ChallengeTestSuite
-19:07:58.120 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.092 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.189 [main] INFO org.reflections.Reflections - Reflections took 64 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.289 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.156 [main] INFO org.reflections.Reflections - Reflections took 60 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.258 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.294 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.299 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.264 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.269 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.304 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.309 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.274 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.279 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.314 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.318 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.284 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.287 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.323 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.330 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.291 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.300 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.335 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.339 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.303 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.307 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.344 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.358 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.311 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.318 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.366 [main] INFO org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.369 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.322 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.328 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.375 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.377 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.336 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.338 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.380 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.387 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.341 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.347 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.392 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.395 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.349 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.351 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.398 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.401 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.355 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.359 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.404 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.407 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.363 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.366 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.410 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.412 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.369 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.371 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.416 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.421 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.374 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.378 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.426 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.432 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.396 [main] INFO org.reflections.Reflections - Reflections took 16 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.403 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.436 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.440 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.409 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.414 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.444 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.448 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.422 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.433 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.454 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.478 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.437 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.454 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.488 [main] INFO org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.495 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.457 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.467 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.499 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.511 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.470 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.477 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.519 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.530 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.486 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.491 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.533 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.535 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.495 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.499 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.539 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.545 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.502 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.505 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.548 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.552 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.509 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.514 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.556 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.559 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.518 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.521 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.563 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.566 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.523 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.525 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.569 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.572 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.528 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.530 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.575 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.578 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.533 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.535 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.580 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.583 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.539 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.542 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.585 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.590 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.545 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.550 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.594 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.601 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.553 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.556 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.606 [main] INFO org.reflections.Reflections - Reflections took 5 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.610 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.559 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.562 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.612 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.614 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.566 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.569 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.616 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.618 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.581 [main] INFO org.reflections.Reflections - Reflections took 11 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.583 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.620 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.622 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.585 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.588 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.626 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.628 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.590 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.592 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.630 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.632 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.596 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.598 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.634 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.636 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.599 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.601 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.638 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.641 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.603 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.606 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.644 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.646 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.608 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.613 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.648 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.650 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.615 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.617 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.652 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.654 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.620 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.621 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.657 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.659 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.623 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.625 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.660 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.662 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.627 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.630 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.664 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.667 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.631 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.634 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.669 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.672 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.636 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.638 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.675 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.677 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.641 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.643 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.681 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.682 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.645 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.651 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.685 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.687 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.653 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.657 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.690 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.691 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.663 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.667 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.696 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.698 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.672 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.674 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.715 [main] INFO org.reflections.Reflections - Reflections took 17 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.717 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.691 [main] INFO org.reflections.Reflections - Reflections took 16 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.695 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.727 [main] INFO org.reflections.Reflections - Reflections took 10 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.728 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.698 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.700 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.730 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.732 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.702 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.705 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.734 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.736 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.707 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.710 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.738 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.743 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.712 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.715 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.745 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.747 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.718 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.719 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.748 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.750 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.721 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.722 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.752 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.754 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.724 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.725 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.758 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.762 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.727 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.729 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.765 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.768 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.732 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.734 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.771 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.775 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.736 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.738 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.778 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.782 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.740 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.742 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.784 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.786 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.745 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.747 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.790 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.792 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.749 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.750 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.795 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.796 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.752 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.754 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.798 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.799 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.756 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.758 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.801 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.804 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.760 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.761 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.810 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.812 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.764 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.765 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.813 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.815 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.767 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.768 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.817 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.818 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.770 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.772 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.820 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.822 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.774 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.775 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.825 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.826 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.777 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.779 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.827 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.829 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.783 [main] INFO org.reflections.Reflections - Reflections took 4 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.785 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.830 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.832 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.787 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.790 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.834 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.841 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.792 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.800 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.842 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.844 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.802 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.803 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.845 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.847 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.805 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.806 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.848 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.850 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.812 [main] INFO org.reflections.Reflections - Reflections took 6 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.813 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.852 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.854 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.816 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.818 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.858 [main] INFO org.reflections.Reflections - Reflections took 3 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.860 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.820 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.821 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.862 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.863 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.823 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.824 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.866 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.868 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.826 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.827 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.870 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.872 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.829 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.830 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.874 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.876 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.832 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.833 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.878 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.880 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.835 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.836 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.881 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.883 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.838 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.839 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.885 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.886 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.841 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.843 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.888 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.891 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.845 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.847 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.893 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.895 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.849 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.851 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.897 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.899 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.853 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.854 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.902 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.908 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.856 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.861 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.911 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.913 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.863 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.865 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.915 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.917 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.867 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.868 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.919 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.921 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.870 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.872 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.924 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.926 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.874 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.876 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.927 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.929 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.878 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.879 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.930 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.932 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.881 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.883 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.934 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.936 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.892 [main] INFO org.reflections.Reflections - Reflections took 9 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.895 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.938 [main] INFO org.reflections.Reflections - Reflections took 1 ms to scan 1 urls, producing 5 keys and 22 values 
-19:07:58.940 [main] DEBUG org.reflections.Reflections - going to scan these urls:
+19:10:17.897 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+19:10:17.898 [main] DEBUG org.reflections.Reflections - going to scan these urls:
 file:/home/cleyton/codenation/java-9/target/classes/
-19:07:58.942 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
-[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.077 s - in com.challenge.suite.ChallengeTestSuite
+19:10:17.903 [main] INFO org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 5 keys and 22 values 
+[INFO] Tests run: 102, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.062 s - in com.challenge.suite.ChallengeTestSuite
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -344,6 +344,6 @@ file:/home/cleyton/codenation/java-9/target/classes/
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  8.311 s
-[INFO] Finished at: 2020-05-12T19:07:59-03:00
+[INFO] Total time:  8.157 s
+[INFO] Finished at: 2020-05-12T19:10:18-03:00
 [INFO] ------------------------------------------------------------------------

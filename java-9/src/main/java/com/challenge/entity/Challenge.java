@@ -17,12 +17,10 @@ public class Challenge {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(length = 100, nullable = false)
     @NotNull
     @Size(max = 100)
     private String name;
 
-    @Column(length = 50, nullable = false)
     @NotNull
     @Size(max = 50)
     private String slug;

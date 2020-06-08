@@ -17,7 +17,6 @@ public class Acceleration {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    @Column(length = 100, nullable = false)
     @Size(max = 100)
     @NotNull
     private String name;
