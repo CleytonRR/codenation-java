@@ -1,16 +1,6 @@
-
-Welcome to Gradle 6.1.1!
-
-Here are the highlights of this release:
- - Reusable dependency cache
- - Configurable compilation order between Groovy/Kotlin/Java/Scala
- - New sample projects in Gradle's documentation
-
-For more details see https://docs.gradle.org/6.1.1/release-notes.html
-
-> Task :compileJava
+> Task :compileJava UP-TO-DATE
 > Task :processResources NO-SOURCE
-> Task :classes
+> Task :classes UP-TO-DATE
 
 > Task :compileTestJava
 
@@ -19,4 +9,4 @@ For more details see https://docs.gradle.org/6.1.1/release-notes.html
 > Task :test
 
 BUILD SUCCESSFUL in 2s
-3 actionable tasks: 3 executed
+3 actionable tasks: 2 executed, 1 up-to-date

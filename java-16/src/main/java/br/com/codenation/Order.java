@@ -19,4 +19,8 @@ public class Order {
     public PaymentMethod getPaymentMethod() {
         return paymentMethod;
     }
+
+    private Double getPriceDiscount() {
+        return this.paymentMethod.getPaymentStrategy().calculate(this.getPrice());
+    }
 }
