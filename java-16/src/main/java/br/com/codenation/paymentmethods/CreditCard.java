@@ -4,6 +4,6 @@ public class CreditCard implements PriceStrategy {
 
     @Override
     public Double calculate(Double price) {
-        return price * 0.98;
+        return price * PaymentsMethodValue.CREDIT_CARD;
     }
 }
